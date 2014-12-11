@@ -754,7 +754,9 @@ border-radius: 10px; /* future proofing
  #about_us .move {
   margin-left:12.5%;
  }
-
+#about_us_mobile {
+  display:none;
+}
 /*#about_us .six.columns.alpha {
   padding-top: 30px;
   
