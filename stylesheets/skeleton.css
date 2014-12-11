@@ -388,7 +388,7 @@ line-height:1.5em;
   -khtml-border-radius: 10px;
   border-radius:10px;
  padding-bottom: 0px;
- margin-bottom: -500px;
+ margin-bottom: 20px;
 }
   
 #about_us_mobile h1 {
@@ -461,9 +461,7 @@ line-height:1.5em;
 
 
 
-#section2 {
-    padding-top: 200%;
-}
+
 
 
 

@@ -773,7 +773,7 @@ border-radius: 10px; /* future proofing
 #section2 {
   height:100%;
   width:100%;
-  padding-top: 60%;
+  
   /*background-color:#3498db;*/
   color: #fff;
 }
@@ -1214,7 +1214,7 @@ padding-bottom:30px;
 }
 
 #sponsors {
-  background-image: url("../images/group.png");
+  background: url("../images/group.png");
  background-repeat: no-repeat;
  background-size: 100%;
 
