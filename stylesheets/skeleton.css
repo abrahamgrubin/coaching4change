@@ -423,7 +423,7 @@ line-height:1.5em;
    -webkit-border-radius: 12px;
    -moz-border-radius: 12px;
    border-radius: 12px;
-   font-family: Varela Round;
+   font-family: Varela Round, Arial, Helvetica, sans-serif;
    color:#fff;
    font-size: 1.2em;
    display:block;
@@ -447,7 +447,7 @@ line-height:1.5em;
    -webkit-border-radius: 12px;
    -moz-border-radius: 12px;
    border-radius: 12px;
-   font-family: Varela Round;
+   font-family: Varela Round, Arial, Helvetica, sans-serif;
    color:#fff;
    font-size: 1.2em;
    display:block;
@@ -526,7 +526,7 @@ line-height:1.5em;
 #media .container .sixteen.columns  h3 {
   color: #13496C;
   font-size: .75em;
-  font-family: Varela Round;
+  font-family: Varela Round, Arial, Helvetica, sans-serif;
   margin-left: 5%;
   margin-right: 5%;
   
@@ -534,7 +534,7 @@ line-height:1.5em;
 
 #media .container .sixteen.columns  h4{
   color: #13496C;
-  font-family: Varela Round;
+  font-family: Varela Round, Arial, Helvetica, sans-serif;
   margin-left: 5%;
   margin-right: 5%;
   font-size:.75em;
