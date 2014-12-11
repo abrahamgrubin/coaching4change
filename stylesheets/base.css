@@ -1407,6 +1407,11 @@ width:98px;
   
   }
 
+ .problem {
+  color:#fff;
+  padding-top: 50px;
+  font-size: 1.5em;
+} 
 
   #process .sixteen.columns {
     background-color: #fff;
