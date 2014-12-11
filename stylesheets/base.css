@@ -1207,11 +1207,15 @@ padding-bottom:30px;
 /*#partners a strong {
   color: #fff;
 }*/
+#about_us_mobile {
+  display: none;
+}
 
 #sponsors {
   background-image: url("../images/group.png");
  background-repeat: no-repeat;
  background-size: 100%;
+
   padding-top: 20px;
   padding-bottom: 0px;
   box-shadow: 0 0 20px #000000;
