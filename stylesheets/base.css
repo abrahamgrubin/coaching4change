@@ -1527,12 +1527,15 @@ width:98px;
 #programs p strong {
   color: #13496C;
 }
-#programs a {
-  text-decoration: none;
-  color: #fff;
+
+#programs .prog {
+  
+  text-align: center;
+  padding-bottom:20px;
 }
-#programs button {
-  display: block;
+
+#programs a {
+  
   margin-right: auto;
   margin-left: auto;
   text-decoration:none;
@@ -1545,6 +1548,7 @@ width:98px;
    background: -ms-linear-gradient(top, #BF4040, #BF4040);
    background: -o-linear-gradient(top, #BF4040, #BF4040);
    padding: 20px 40px;
+  
    -webkit-border-radius: 12px;
    -moz-border-radius: 12px;
    border-radius: 12px;
@@ -1552,8 +1556,8 @@ width:98px;
    color:#fff;
    font-size: 1em;
 }
-#programs button:hover {
-  display: block;
+#programs a:hover {
+  
   margin-right: auto;
   margin-left: auto;
   text-decoration:none;
@@ -1592,12 +1596,13 @@ width:98px;
   width: 35%;
   height: 35%;
   /*border: 2px solid #BF4040;*/
-  border-radius: 10%;
-  background-color: #BF4040;
   
+  background-color: #BF4040;
+  shape-outside: circle(50%);
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
-  shape-outside: circle(50%);
+  border-radius:200px;
+  
  margin:20px;
   float: left;
   box-shadow:  0px 0 10px #000000;
@@ -1619,7 +1624,8 @@ width:98px;
 }
 #testimonial blockquote {
   font-size: 1em;
-  margin: 1.5em 10px;
+  margin-top: 1.5em; 
+  margin-bottom:4.5em;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
@@ -1630,6 +1636,16 @@ width:98px;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+}
+
+#testimonial blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+
+  margin-top:2em;
+  vertical-align: -0.6em;
 }
 
 
@@ -2362,8 +2378,33 @@ color:#13496C;
    font-size: 1em;
 }
 
-
+#donate form {
+  text-align: center;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#donate tr {
+  text-align: center;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#donate td {
+  text-align: center;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#donate tbody {
+  text-align: center;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 #donate .paypal_btn:hover {
 
@@ -2384,6 +2425,117 @@ color:#13496C;
    color:#fff;
    font-size: 1em;
  }
+
+#slideshow {
+  height:110%;
+}
+
+ #slideshow .slider {
+  width:640px;
+  height:486px;
+  
+  padding-right:40px;
+
+
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+
+ }
+
+ #slideshow .slider img {
+  /*width:640px;
+  height:426px;*/
+  display:none;
+  border:10px solid #BF4040;
+  position: relative;
+  width: 640px;
+  height: 426px;
+  margin: 20px 0;
+  background: red;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+
+ }
+#slideshow h1 {
+  padding-top: 10px;
+  color:#fff;
+  text-align:bottom;
+  box-shadow:  0px 0 10px #000000;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  background-color: #13496C;
+  border: 2px solid #BF4040;
+   border-top-right-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+  text-align: center;
+  font-size: 4em;
+ 
+}
+
+ #slider {  
+    width: 640px;  
+    margin: 0 auto;  
+    position: relative;   
+}  
+  
+.slider-mask {  
+    overflow:hidden;  
+    position: relative;  
+}  
+  
+.slider-img {  
+    margin:0;   
+    float: left;  
+    position: relative;  
+}  
+  
+.caption  {  
+    color:#DC6804;   
+    padding:5px 10px 10px 10px;   
+    margin:0;   
+    font-family:Varela Round;   
+    text-transform:uppercase;   
+    font-size:12px;  
+}    
+     
+#button-prev {  
+    position: absolute;  
+    top: 180px;  
+    cursor: pointer;  
+    left: -45px;  
+}  
+  
+#button-next {  
+    position: absolute;  
+    top: 180px;  
+    cursor: pointer;  
+    right: -45px;  
+}  
+  /*  
+adjust #slider-content width as needed  
+width = image width * image count 
+width = 600px * 3 = 1800px  
+*/  
+#slider-content {  
+    width: 1920px;  
+    position: relative;  
+}       
+
+/*.slider img {
+  width:640px;
+  height:426px;
+  display:none;
+  border:10px solid #13496C;
+
+}*/
+
 /*.pricebox header {
   background-color: #f1f1f1;
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
