@@ -614,6 +614,10 @@ margin-top:-100px;
   font-size: 1em;
 } 
 
+#slideshow {
+  display:hidden;
+}
+
 }
 /* #Clearing
 ================================================== */
